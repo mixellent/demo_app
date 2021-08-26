@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Swimm Verify
+on: pull_request
+jobs:
+  Verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # pulling the commits history is required for the verification to function properly
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - uses: swimmio/swimm-verify-action@v1

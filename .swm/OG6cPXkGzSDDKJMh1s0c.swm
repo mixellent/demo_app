@@ -1,0 +1,31 @@
+{
+    "id": "OG6cPXkGzSDDKJMh1s0c",
+    "name": "New Doc",
+    "content": [
+        {
+            "type": "text",
+            "text": "sdfsdfsd\n\nsdfsdsd"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " require File.expand_path('../config/application', __FILE__)",
+                " require 'rake'",
+                " ",
+                "*DemoApp::Application.load_tasks",
+                " "
+            ],
+            "firstLineNumber": 4,
+            "path": "Rakefile",
+            "comments": []
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.5.6-0",
+        "file_blobs": {
+            "Rakefile": "10fca218a2723d5e23c77c996c0d06cda4593bb6"
+        }
+    }
+}
